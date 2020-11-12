@@ -1,0 +1,20 @@
+void fillTheHoles() {
+    moveForward();
+    turnRight();
+    moveForward();
+    dropBeeper();
+    turnAround();
+    repeat(3) {
+        moveForward();
+        turnRight();
+        moveForward();
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();  
+    }
+    moveForward();
+    turnRight();
+    moveForward();
+}
