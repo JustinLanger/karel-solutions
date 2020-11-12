@@ -1,0 +1,29 @@
+void saveTheFlower() { 
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    moveForward();
+    moveForward();
+    turnRight();
+    repeat(3) {
+        moveForward();
+        turnLeft();
+        moveForward();
+        moveForward();
+        turnRight();
+    }
+    moveForward();
+    dropBeeper();
+    moveForward();
+    turnRight();
+    moveForward();
+    moveForward();
+    turnLeft();
+    repeat(3) {
+        moveForward();
+    turnRight();
+    moveForward();
+    moveForward();
+    turnLeft();
+    } 
+}
